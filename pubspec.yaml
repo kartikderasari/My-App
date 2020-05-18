@@ -74,4 +74,4 @@ flutter:
   fonts:
     - family: Produc Sans
       fonts:
-        - asset: assets/ProductSans-Black.ttf
+        - asset: assets/ProductSans-Regular.ttf
