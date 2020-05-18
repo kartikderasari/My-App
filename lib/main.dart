@@ -6,6 +6,7 @@ void main() {
       home: Scaffold(
           appBar: AppBar(
             title: Center(child: Text('Home')),
+            backgroundColor: Colors.lightBlue[300],
           ),
           body: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -21,7 +22,11 @@ void main() {
                     padding: const EdgeInsets.all(8.0),
                     child: Text(
                       'Kartik Derasari',
-                      style: TextStyle(fontSize: 30),
+                      style: TextStyle(
+                        fontSize: 40,
+                        fontFamily: 'Produc Sans',
+                        color: Colors.cyan[600],
+                      ),
                     ),
                   )
                 ],
